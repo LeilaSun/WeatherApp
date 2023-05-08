@@ -1,0 +1,63 @@
+html {
+  min-height: 100%;
+}
+body {
+  min-height: 100%;
+  background-image: url(./picture/weather.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.london_box1 {
+  background-color: white;
+  border-radius: 8px;
+  margin: 30px;
+  padding: 25px;
+}
+.search_box1 {
+  background-color: white;
+  border-radius: 8px;
+  margin: 50px;
+  padding: 10px;
+}
+.shuidi::before {
+  background-image: url("./picture/water-level.png");
+  background-size: contain;
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+.img {
+  height: 20px;
+  width: 20px;
+}
+input {
+  border: 0;
+  outline: 0;
+}
+button {
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px;
+  border: 0;
+  color: white;
+}
+.london_box2 {
+  height: 300px;
+  width: 400px;
+}
+.london_box3 {
+  display: flex;
+  justify-content: space-between;
+}
+.london_box4 {
+  text-align: center;
+}
+.img_box {
+  display: flex;
+  align-items: center;
+}
